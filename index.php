@@ -49,7 +49,7 @@ if($text=="/start"){
       'message_id'=>$mid,
       'parse_mode'=>'html',
       'text'=>"Salom $name! Men muloqot qila oladigan kompyuter dasturiman.\n\nMen sizga <b>id</b> raqam, telegramdagi <b>nik</b>ingiz va <b>username</b>ngiz haqida tezkor habar beraman.\n\n👤 Вы\n ├ <b>id:</b> <code>$chat_id</code>\n ├ <b>Telegramdagi ism:</b> $name\n └ <b>username: </b><b><a href='tg://user?id=$from_id'>$username</a></b>\n
-      \nDasturiy ta'minot <a href='www.php.net'><b>PHP</b></a>.\nDasturchi: <a href='https://t.me/tegoMax'><b>tegoMax</b></a> janoblari.", 
+      \nDasturiy ta'minot <a href='www.github.com/regostarTECH/idLoad'><b>PHP</b></a>.\nDasturchi: <a href='www.github.com/regostarTECH/idLoad'><b>tegoMax</b></a> janoblari.", 
     ]);
 }
 ?>
